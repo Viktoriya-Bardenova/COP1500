@@ -1,9 +1,25 @@
 p {
   font-family: "New Times Roman";
 }
-
 h1 {
   color: maroon;
 }
 
+h2.objective {
+  color: teal;
+}
 
+h3.education {
+  color: rebeccapurple !important;
+}
+
+h4.skills {
+ color: maroon; 
+}
+
+h5.experience {
+  color: teal;
+}
+h6.awards {
+  color:rebeccapurple !important;
+}
