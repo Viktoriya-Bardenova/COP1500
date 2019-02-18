@@ -1,15 +1,9 @@
 p {
   font-family: "New Times Roman";
 }
-header {
-  background-color: #466995;
-  border-bottom: 1px solid #466995;
-  position: fixed;
-  width: 100%;
-  z-index: 10;
+heading {
+  color: blue;
 }
-
-
 h1 {
   color: teal;
 }
