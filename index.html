@@ -8,104 +8,141 @@
   
   </head>
     <body>
-   <!-- <h1>Viktoriya Bardenova</h1>
-    
-    “About Me” 
-    links to at least 2 profiles (like GitHub, LinkedIn, Codecademy, and Hackerrank)
-    community service
-awards, scholarships, etc. 
-    title
-heading (use headings like an outline for your page, include at least one h1)
-list (ordered or unordered)
-CSS (in a separate file) including element, class, and id selectors (Links to an external site.)Links to an external site.
-links
-images with alt text
-    blank lines to separate large or logical code blocks.
-
-    <p>VLBARDENOVA6187@EAGLE.FGCU.EDU</p>  -->
-
-      <header>
-        <ul>
-          <li>Naples, FL</li>
-          <li>vlbardenova6187@eagle.fgcu.edu/<li>
-        </ul>
-      </header>
-          
-
-      <div class="objective">
-        <h1>OBJECTIVE</h1>
-        <p>To gain more experience in Mathematics while learning new skills and get challenged professionally</p>
+   <!-- Begin Wrapper -->
+<div id="wrapper">
+  <div class="wrapper-top"></div>
+  <div class="wrapper-mid">
+    <!-- Begin Paper -->
+    <div id="paper">
+      <div class="paper-top"></div>
+      <div id="paper-mid">
+        <div class="entry">
+          <!-- Begin Image -->
+          <img class="portrait" src="images/image.jpg" alt="John Smith" />
+          <!-- End Image -->
+          <!-- Begin Personal Information -->
+          <div class="self">
+            <h1 class="name">John Smith <br />
+              <span>Interactive Designer</span></h1>
+            <ul>
+              <li class="ad">111 Lorem Street, 34785, Ipsum City</li>
+              <li class="mail">johnsmith@business.com</li>
+              <li class="tel">+11 444 555 22 33</li>
+              <li class="web">www.businessweb.com</li>
+            </ul>
+          </div>
+          <!-- End Personal Information -->
+          <!-- Begin Social -->
+          <div class="social">
+            <ul>
+              <li><a class='north' href="#" title="Download .pdf"><img src="images/icn-save.jpg" alt="Download the pdf version" /></a></li>
+              <li><a class='north' href="javascript:window.print()" title="Print"><img src="images/icn-print.jpg" alt="" /></a></li>
+              <li><a class='north' id="contact" href="contact/index.html" title="Contact Me"><img src="images/icn-contact.jpg" alt="" /></a></li>
+              <li><a class='north' href="#" title="Follow me on Twitter"><img src="images/icn-twitter.jpg" alt="" /></a></li>
+              <li><a class='north' href="#" title="My Facebook Profile"><img src="images/icn-facebook.jpg" alt="" /></a></li>
+            </ul>
+          </div>
+          <!-- End Social -->
+        </div>
+        <!-- Begin 1st Row -->
+        <div class="entry">
+          <h2>OBJECTIVE</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim viverra nibh sed varius. Proin bibendum nunc in sem ultrices posuere. Aliquam ut aliquam lacus.</p>
+        </div>
+        <!-- End 1st Row -->
+        <!-- Begin 2nd Row -->
+        <div class="entry">
+          <h2>EDUCATION</h2>
+          <div class="content">
+            <h3>Sep 2005 - Feb 2007</h3>
+            <p>Academy of Art University, London <br />
+              <em>Master in Communication Design</em></p>
+          </div>
+          <div class="content">
+            <h3>Sep 2001 - Jun 2005</h3>
+            <p>University of Art &amp; Design, New York <br />
+              <em>Bachelor of Science in Graphic Design</em></p>
+          </div>
+        </div>
+        <!-- End 2nd Row -->
+        <!-- Begin 3rd Row -->
+        <div class="entry">
+          <h2>EXPERIENCE</h2>
+          <div class="content">
+            <h3>May 2009 - Feb 2010</h3>
+            <p>Agency Creative, London <br />
+              <em>Senior Web Designer</em></p>
+            <ul class="info">
+              <li>Vestibulum eu ante massa, sed rhoncus velit.</li>
+              <li>Pellentesque at lectus in <a href="#">libero dapibus</a> cursus. Sed arcu ipsum, varius at ultricies acuro, tincidunt iaculis diam.</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h3>Jun 2007 - May 2009</h3>
+            <p>Junior Web Designer <br />
+              <em>Bachelor of Science in Graphic Design</em></p>
+            <ul class="info">
+              <li>Sed fermentum sollicitudin interdum. Etiam imperdiet sapien in dolor rhoncus a semper tortor posuere. </li>
+              <li>Pellentesque at lectus in libero dapibus cursus. Sed arcu ipsum, varius at ultricies acuro, tincidunt iaculis diam.</li>
+            </ul>
+          </div>
+        </div>
+        <!-- End 3rd Row -->
+        <!-- Begin 4th Row -->
+        <div class="entry">
+          <h2>SKILLS</h2>
+          <div class="content">
+            <h3>Software Knowledge</h3>
+            <ul class="skills">
+              <li>Photoshop</li>
+              <li>Illustrator</li>
+              <li>InDesign</li>
+              <li>Flash</li>
+              <li>Fireworks</li>
+              <li>Dreamweaver</li>
+              <li>After Effects</li>
+              <li>Cinema 4D</li>
+              <li>Maya</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h3>Languages</h3>
+            <ul class="skills">
+              <li>CSS/XHTML</li>
+              <li>PHP</li>
+              <li>JavaScript</li>
+              <li>Ruby on Rails</li>
+              <li>ActionScript</li>
+              <li>C++</li>
+            </ul>
+          </div>
+        </div>
+        <!-- End 4th Row -->
+         <!-- Begin 5th Row -->
+        <div class="entry">
+        <h2>WORKS</h2>
+        	<ul class="works">
+        		<li><a href="images/1.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+        		<li><a href="images/2.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+        		<li><a href="images/3.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+        		<li><a href="images/1.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+        		<li><a href="images/2.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+        		<li><a href="images/3.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+        		<li><a href="images/1.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+        		<li><a href="images/1.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+        	</ul>
+        </div>
+        <!-- Begin 5th Row -->
       </div>
-      
-      <!-- <h2 class="city">London</h2>
-<p>London is the capital of England.</p> -->
-      <h2 class="skills"><em>Proficient:</em></h2>
-              <ul> <li>C++ </li>
-                   <li>Pascal</li>
-              </ul>
-            <!--<li><em>Languages:</em> 
-              <ul> 
-                <li>Bulgarian</li>
-                <li>Russian</li>
-              </ul>
-            </li>
-            <li><em>Relevent course work:</em> 
-              <ul>
-                <li>Statistical Methods</li>
-                <li>Calculus I and II</li>
-                <li>Honors:The Earth and the Sun</li>
-                <li>Introduction to Computer Science</li>
-              <ul>
-            </li>   
-          </ul>
-      </div>-->
-      
-      <div class="awards">
-        <h3>AWARDS, SCHOLARSHIPS, ETC.</h3>
-          <ul>
-            <li>Fall 2018 Dean’s list</li> 
-            <li>President’s Gold Scholarship recipient</li> 
-            <li>Honors College</li>
-          </ul>
-      </div>
-             
-      <div class="education">
-        <h4>EDUCATION</h4>
-          <ul>
-            <li><em>BS IN MATHEMATICS, 2018-ANTICIPATED GRADUATION 2022</em></p>
-                <p>Florida Gulf Coast University</p>
-                <p>GPA 3.95/4.00</p>
-            </li>
-            <li><em>DIPLOMA OF SECONDARY EDUCATION, 1997-2002</em></p>
-                <p>Mathematics Gymnasium “Baba Tonka”, Ruse, Bulgaria</p>
-                <p>GPA 5.97/6.00</p>
-            </li>
-          </ul>
-      </div>
-
-      <div class="experience">
-        <h5>EXPERIENCE</h5>
-          <ul>
-            <li><em>RESEARCH</em>
-                <ul>
-                  <li>Currently working on research determining the size of the Solar radius in a team with fellow Honors student Corbin Myers led by Dr. Derek Buzasi in Honors: The Earth and the Sun. The results of this research will be presented as a poster at the June 9-13 meeting of the American Astronomical Society in St. Louis, MO.</li>
-                  <li>Research in Descrete Mathematics in Summer 2019 led by Dr. Erik Insko</li>
-                </ul>
-            <li><em>VOLUNTEER EXPERIENCE OR LEADERSHIP</em>
-              <ul>
-                <li>Member of FGCU Math Club.</li>
-                <li>Participant in the Emerging Eagles leadership program throughout Spring 2019.</li>
-                <li>Participant in Alternative Break throughout Spring 2019.</li>  
-                <li>Honors College mentor 2019-2020.</li>
-              </ul>
-          </ul>
-      </div>
-     
-  <footer>
-    <h3>Find me on social media:</h3>
-    <a href="https://twitter.com/vbardenova/"></a>
-  </footer>
-  
+      <div class="clear"></div>
+      <div class="paper-bottom"></div>
+    </div>
+    <!-- End Paper -->
+  </div>
+  <div class="wrapper-bottom"></div>
+</div>
+<div id="message"><a href="#top" id="top-link">Go to Top</a></div>
+<!-- End Wrapper -->
 </body>
 </html>
 
