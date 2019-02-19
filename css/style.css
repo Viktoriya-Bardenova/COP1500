@@ -4,17 +4,17 @@ p {
 heading {
   color: blue;
 }
-h1 {
+ .objective {
   color: #466995;
-  /*font-family: 'Oswald', sans-serif; */
+  /* font-family: 'Oswald', sans-serif; --> */
   font-size: 32px;
   font-weight: 300;
   text-transform: uppercase;
 }
 
-.objective {
+/* {
   color: blue;
-}
+}*/
 
 .education {
   color: teal;
