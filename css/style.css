@@ -49,7 +49,7 @@ footer {
   height: 100px;
 }
 .objective {
-  background-color: teal;
+  color: teal;
   box-sizing: border-box;
   padding: 40px;
   text-align: left;
@@ -58,7 +58,7 @@ footer {
   top: 40px;
 }
 .skills {
-  background-color: teal;
+  color: teal;
   box-sizing: border-box;
   padding: 40px;
   text-align: left;
@@ -67,7 +67,7 @@ footer {
   top: 80px;
 }
 .awards {
-  background-color: teal;
+  color: teal;
   box-sizing: border-box;
   padding: 40px;
   text-align: left;
@@ -76,17 +76,7 @@ footer {
   top: 120px;
 }
 .education {
-  background-color: light blue;
-  box-sizing: border-box;
-  padding: 40px;
-  text-align: center;
-  width: 100%;
-  position: relative;
-  top: 30px;
-  width:70%;
-}
-.education {
-  background-color: light blue;
+  color: light blue;
   box-sizing: border-box;
   padding: 40px;
   text-align: center;
@@ -96,22 +86,12 @@ footer {
   width:70%;
 }
 .experience {
-  background-color: light blue;
+  color: light blue;
   box-sizing: border-box;
   padding: 40px;
   text-align: center;
   width: 100%;
   position: relative;
-  top: 90px;
-  width:70%;
-}
-.experience {
-  background-color: light blue;
-  box-sizing: border-box;
-  padding: 40px;
-  text-align: center;
-  width: 100%;
-  position: relative;
-  top: 120px;
+  top: 60px;
   width:70%;
 }
