@@ -58,16 +58,6 @@ img {
     width: 99%;
     background-color: #E3EDD8;
     }
-
-/*.left
-{
-    float: left;
-    margin-top: 50px;
-    /*margin-right: -90px;
-    height: relative;
-    width: 10%;
-    background-color: #4160E8;
-    }*/
     
 #footer
 {
@@ -85,33 +75,20 @@ h1
   font: Times New Roman, serif;
   } 
 
-h3
+h2
 {
     text-decoration: underline;
     }
 
-/*#job-responsibilities
-{
-    padding: 1px;
-    }
-.job-title
-{
-    font-weight: bold;
-    }*/
 table
 {
-    border: 1px dashed black;
+    border: 1px dashed 009933;
     }
 td
 {
     padding: 2px;
     border: 1px solid #E88741;
     }
-
-/*#skill-name
-{
-    font-weight:bold;
-    }*/
 
 #research-type
 {
