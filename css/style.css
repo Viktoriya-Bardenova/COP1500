@@ -43,6 +43,10 @@ a:hover {
     font-weight: bold;
 }
 
+img {
+  border-radius: 50%;
+}
+
 .right
 {
     float: left;
