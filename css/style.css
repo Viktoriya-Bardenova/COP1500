@@ -43,9 +43,9 @@ a:hover {
     font-weight: bold;
 }
 
-img {
+/*img {
   border-radius: 50%;
-}
+}*?
 
 .right
 {
@@ -69,7 +69,7 @@ img {
 
 h1 
 { 
-  color: 009933;
+  color: #006622;
   font-size: 30px;
   font-weight: bold;
   font: Times New Roman, serif;
@@ -82,7 +82,7 @@ h2
 
 table
 {
-    border: 1px dashed 009933;
+    border: 1px dashed #006622;
     }
 td
 {
