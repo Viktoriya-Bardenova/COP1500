@@ -60,12 +60,12 @@ h2 {
 }
 
 table {
-  border: 1px groove #006622;
+  border: 1px dotted #668284;
 }
 
 td {
   padding: 2px;
-  border: 1px solid #E88741;
+  border: 1px solid #668284;
 }
 
 #research-type {
