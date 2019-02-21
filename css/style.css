@@ -76,7 +76,11 @@ img {
     position: relative;
     background-color: #C1E3E1;
     }
-    
+h1 { 
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+} 
 h3
 {
     text-decoration: underline;
