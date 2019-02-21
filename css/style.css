@@ -6,7 +6,7 @@ div
 {
     position: fixed;
     z-index: 1;
-    height:200px;
+    height:60px;
     width: 98%;
     background-color: #668284;
     margin-bottom: 10px
@@ -76,11 +76,15 @@ img {
     position: relative;
     background-color: #C1E3E1;
     }
-h1 { 
-  color: black;
+
+h1 
+{ 
+  color: 009933;
   font-size: 30px;
   font-weight: bold;
-} 
+  font: Times New Roman, serif;
+  } 
+
 h3
 {
     text-decoration: underline;
