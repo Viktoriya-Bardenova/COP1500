@@ -1,27 +1,25 @@
-div
-{
-    border-radius: 5px;
-    }
-#header
-{
-    position: relative;
-    z-index: 1;
-    height:40px;
-    width: 98%;
-    background-color: #668284;
-    margin-bottom: 10px
-    }
-
-#about {
-    float:left;
-	margin-left: 20px;
-	padding-bottom: 10px;
-	font-size: 16px;
-	font-family: Times New Roman, sans-serif;
-	color: #ffffff;
+div{
+  border-radius: 5px;
+}
+#header {
+  position: relative;
+  z-index: 1;
+  height:40px;
+  width: 98%;
+  background-color: #668284;
+  margin-bottom: 10px
 }
 
-#email{
+#about {
+  float:left;
+  margin-left: 20px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-family: Times New Roman, sans-serif;
+  color: #ffffff;
+}
+
+#email {
     float:right;
     margin-right: 20px;
 	padding-bottom: 10px;
@@ -30,88 +28,68 @@ div
 	color: #ffffff;
 }
 
-/*#contact
-{
-    margin-left:45%;
-    padding-bottom: 10px;
-	font-size: 16px;
-	font-family: Times New Roman, sans-serif;
-	color: #ffffff;
-    }
-
-a:hover {
-    font-weight: bold;
-}*/
-
 img {
   border-radius: 50%;
 }
 
-.right
-{
-    float: left;
-    margin-top: 50px;
-    padding-left:5px;
-    /*margin-right: -10px;
-    margin-left: 14%;*/
-    height: auto;
-    width: 99%;
-    background-color: #E3EDD8;
-    }
+.right {
+  float: left;
+  margin-top: 50px;
+  padding-left:5px;
+  height: auto;
+  width: 99%;
+  background-color: #E3EDD8;
+}
     
-#footer
-{
-    height:40px;
-    clear:both;
-    position: relative;
-    background-color: #668284;
-    }
+#footer {
+  height:40px;
+  clear:both;
+  position: relative;
+  background-color: #668284;
+}
 
-h1 
-{ 
+h1 { 
   color: #006622;
   font-size: 40px;
   font-weight: bold;
   font: Times New Roman, serif;
-  } 
+} 
 
-h2
-{
-    text-decoration: underline;
-    }
+h2 {
+  text-decoration: underline;
+}
 
-table
-{
-    border: 1px dashed #006622;
-    }
-td
-{
-    padding: 2px;
-    border: 1px solid #E88741;
-    }
+table {
+  border: 1px groove #006622;
+}
 
-#research-type
-{
-    height:2px;
-    text-decoration:underline;
-    }
-#research-subject
-{
-    height: 5px;
-    }
-#v-experience
-{
-    height:2px;
-    text-decoration:underline;
-    }
-.skill-name
-{
-    float:right;
-    }
-#heading
-{
-    font-weight:bold;
-    }
+td {
+  padding: 2px;
+  border: 1px solid #E88741;
+}
+
+#research-type {
+  height:2px;
+  text-decoration:underline;
+}
+
+#research-subject {
+  height: 5px;
+}
+
+#v-experience {
+  height:2px;
+  text-decoration:underline;
+}
+
+.skill-name {
+  float:right;
+}
+
+#heading {
+  font-weight:bold;
+}
+
 /*Social media copied from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp*/
 /* Style all font awesome icons */
 .fa {
