@@ -5,7 +5,7 @@ div
 #header
 {
     position: fixed;
-    z-index: 4;
+    z-index: 1;
     height:40px;
     width: 98%;
     background-color: #668284;
@@ -80,7 +80,7 @@ h1
 {
    font-size: 30px;
    font-family: Times New Roman, serif;
-   color: #ffffff; 
+   color: dark green; 
 }
     
 h3
