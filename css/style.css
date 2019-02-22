@@ -31,15 +31,6 @@ a:hover {
 }
 </style>
 
-/*#about {
-  float:left;
-  margin-left: 20px;
-  padding-bottom: 10px;
-  font-size: 16px;
-  font-family: Times New Roman, sans-serif;
-  color: #ffffff;
-}*/
-
 #email {
   float:right;
   margin-right: 20px;
@@ -81,7 +72,7 @@ h2 {
   color: #006622;
   font-size: 25px;
   font-weight: bold;
-  font: Times New Roman, sans serif;
+  font: Courier, serif;
 }
 
 table {
