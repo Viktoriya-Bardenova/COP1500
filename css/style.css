@@ -77,7 +77,10 @@ h1 {
 } 
 
 h2 {
-  text-decoration: underline;
+  color: #006622;
+  font-size: 40px;
+  font-weight: bold;
+  font: Times New Roman, serif;
 }
 
 table {
