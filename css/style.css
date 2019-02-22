@@ -70,9 +70,16 @@ h1 {
 
 h2 {
   color: #006622;
+  font-size: 20px;
+  font-weight: bold;
+  font: Times New Roman, serif;
+}
+
+h3 {
+  color: #006622;
   font-size: 25px;
   font-weight: bold;
-  font: Courier, serif;
+  font: Monaco, serif;
 }
 
 table {
