@@ -41,12 +41,13 @@ a:hover {
 }*/
 
 #email {
-    float:right;
-    margin-right: 20px;
-	padding-bottom: 10px;
-	font-size: 16px;
-	font-family: Times New Roman, sans-serif;
-	color: #ffffff;
+  float:right;
+  margin-right: 20px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-family: Times New Roman, sans-serif;
+  color: #ffffff;
+  background-color: #668284;
 }
 
 img {
@@ -78,9 +79,9 @@ h1 {
 
 h2 {
   color: #006622;
-  font-size: 40px;
+  font-size: 25px;
   font-weight: bold;
-  font: Times New Roman, serif;
+  font: Times New Roman, sans serif;
 }
 
 table {
