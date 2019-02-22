@@ -10,14 +10,35 @@ div{
   margin-bottom: 10px
 }
 
+<style>
 #about {
+    width: 6em;
+    border: 2px solid green;
+    background: #ffe;
+    border-radius: 5px;
+}
+a {
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover {
+    color: red;
+    background: #eff;
+}
+</style>
+
+/*#about {
   float:left;
   margin-left: 20px;
   padding-bottom: 10px;
   font-size: 16px;
   font-family: Times New Roman, sans-serif;
   color: #ffffff;
-}
+}*/
 
 #email {
     float:right;
