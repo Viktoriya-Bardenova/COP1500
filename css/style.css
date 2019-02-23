@@ -1,6 +1,9 @@
+/* rounded corners to border, one value that applies to all four corners, so they are are rounded equally*/
 div{
   border-radius: 5px;
 }
+
+/*Header parameters*/
 #header {
   position: relative;
   z-index: 1;
@@ -10,10 +13,11 @@ div{
   margin-bottom: 10px
 }
 
+/* Defining About me section with a style attribute */
 <style>
 #about {
     width: 6em;
-    border: 2px solid green;
+    border: 2px #003300;
     background: #ffe;
     border-radius: 5px;
 }
@@ -24,14 +28,15 @@ a {
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
-    font-family: Comic Sans MS,Times New Roman, sans-serif;
+    font-family:Times New Roman, sans-serif;
 }
 a:hover {
-    color: red;
+    color: #b30047;
     background: #eff;
 }
 </style>
 
+/*set up an option to be contacted by email*/
 #email {
   float:right;
   margin-right: 20px;
@@ -42,10 +47,12 @@ a:hover {
   background-color: #668284;
 }
 
+/*creating a circle image*/
 img {
   border-radius: 50%;
 }
 
+/*defining class .right*/
 .right {
   float: left;
   margin-top: 50px;
@@ -55,6 +62,7 @@ img {
   background-color: #E3EDD8;
 }
     
+/*footer*/
 #footer {
   height:40px;
   clear:both;
@@ -62,6 +70,7 @@ img {
   background-color: #668284;
 }
 
+/*Headers h1, h2, h3*/
 h1 { 
   color: #006622;
   font-size: 40px;
@@ -80,9 +89,10 @@ h3 {
   color: #006622;
   font-size: 25px;
   font-weight: bold;
-  font: Monaco, serif;
+  font: Times New Roman, serif;
 }
 
+/*creating a table for education section*/
 table {
   border: 1px dotted #668284;
 }
@@ -92,6 +102,7 @@ td {
   border: 1px solid #668284;
 }
 
+/*defining ids*/
 #research-type {
   height:2px;
   text-decoration:underline;
