@@ -1,4 +1,5 @@
 /* rounded corners to border, one value that applies to all four corners, so they are are rounded equally*/
+/*used https://www.w3schools.com/cssref/css3_pr_border-radius.asp*/
 div{
   border-radius: 5px;
 }
@@ -14,6 +15,7 @@ div{
 }
 
 /* Defining About me section with a style attribute */
+/*used https://www.codecademy.com/en/forum_questions/55ad460dd3292f1a8200050c as reference*/
 <style>
 #about {
   width: 6em;
