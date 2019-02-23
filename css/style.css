@@ -18,14 +18,14 @@ div{
 #about {
     width: 6em;
     border: 2px #003300;
-    background: #ffe;
+    background-color: #668284;
     border-radius: 5px;
 }
 a {
     display: block;
     width: 100%;
     line-height: 2em;
-    text-align: center;
+    text-align: center;background
     text-decoration: none;
     border-radius: 5px;
     font-family:Times New Roman, sans-serif;
