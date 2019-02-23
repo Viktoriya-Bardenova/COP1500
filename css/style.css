@@ -24,6 +24,7 @@ a {
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
+    font-family: Comic Sans MS,Times New Roman, sans-serif;
 }
 a:hover {
     color: red;
