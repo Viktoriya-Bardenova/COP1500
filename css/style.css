@@ -16,23 +16,25 @@ div{
 /* Defining About me section with a style attribute */
 <style>
 #about {
-    width: 6em;
-    border: 2px #003300;
-    background-color: #668284;
-    border-radius: 5px;
+  width: 6em;
+  border: 2px #003300;
+  background-color: #668284;
+  border-radius: 5px;
 }
+
 a {
-    display: block;
-    width: 100%;
-    line-height: 2em;
-    text-align: center;background
-    text-decoration: none;
-    border-radius: 5px;
-    font-family:Times New Roman, sans-serif;
+  display: block;
+  width: 100%;
+  line-height: 2em;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family:Times New Roman, sans-serif;
 }
+
 a:hover {
-    color: #b30047;
-    background: #eff;
+  color: #b30047;
+  background: #eff;
 }
 </style>
 
