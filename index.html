@@ -10,31 +10,32 @@
     <!-- here  -->
     
 
-<canvas id="myCanvas" width="300" height="150" style="border:1px solid #d3d3d3;">
+<canvas id="myCanvas" width="320" height="90" style="border:1px solid #d3d3d3;">
 Your browser does not support the HTML5 canvas tag.</canvas>
 
 <script>
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 
-ctx.font = "20px Georgia";
-ctx.strokeText("viki", 10, 50);
+//ctx.font = "20px Georgia";
+//ctx.strokeText("Hello World!", 10, 50);
 
 ctx.font = "30px Verdana";
 
 // Create gradient
 var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
 gradient.addColorStop("0", "green");
-gradient.addColorStop("0.5", "yellow");
-gradient.addColorStop("1.0", "black");
+gradient.addColorStop("0.5", "blue");
+gradient.addColorStop("1.0", "green");
 
 // Fill with gradient
 ctx.strokeStyle = gradient;
-ctx.strokeText("Viktoriya", 20, 70);
+ctx.strokeText("Viktoriya Bardenova", 10, 70);
 </script>
 
 <p><strong>Note:</strong> The canvas tag is not supported in Internet 
 Explorer 8 and earlier versions.</p>
+
 
 
     <!-- here  -->
