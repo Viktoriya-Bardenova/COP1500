@@ -8,17 +8,17 @@
     End of title-->
     
     <!-- here  -->
-    <canvas id="myCanvas" width="320" height="90" style="border:2px dashed #668284 background-color: #668284;">
+    <canvas id="myCanvas" width="320" height="90" style="border:2px dashed #668284;">
 Your browser does not support the HTML5 canvas tag.</canvas>
 
 <script>
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
-ctx.font = "30px Times New Roman, serif";
+ctx.font = "40px Times New Roman, serif";
 
 // Create gradient
 var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
-gradient.addColorStop("0", "green");
+gradient.addColorStop("0", "#006622");
 gradient.addColorStop("0.5", "blue");
 gradient.addColorStop("1.0", "green");
 
