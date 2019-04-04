@@ -7,6 +7,7 @@
     <title>Viktoriya Bardenova</title> 
     End of title-->
     
+    <!-- here  -->
     <canvas id="myCanvas" width="300" height="75" style="border:2px dotted #003300;">
 Your browser does not support the HTML5 canvas tag.</canvas>
 
@@ -15,8 +16,18 @@ var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 ctx.font = "50px Times New Roman, sans-serif";
 ctx.strokeText("Viktoriya Bardenova",10,50);
+  // Create gradient
+var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
+gradient.addColorStop("0", "green");
+gradient.addColorStop("0.5", "yellow");
+gradient.addColorStop("1.0", "black");
+
+// Fill with gradient
+ctx.strokeStyle = gradient;
+ctx.strokeText("Big smile!", 20, 70);
+
 </script>
-    
+    <!-- here  -->
     <!--Main heading-->
     <head>
     <h1><!--Viktoriya Bardenova--><img class="portrait" src="images/IMG_2823 copy.JPG" alt="Viktoriya" style="width:50px;height:60px;"></h1>
