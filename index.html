@@ -8,7 +8,7 @@
     End of title-->
     
     <!--Canvas element-->
-    <canvas id="myCanvas" width="500" height="120" style="border:1px solid #d3d3d3;">
+    <canvas id="myCanvas" width="700" height="115" style="border:1px solid #d3d3d3;">
 Your browser does not support the HTML5 canvas tag.</canvas>
 
 <script>
@@ -19,9 +19,9 @@ ctx.font = "70px Times New Roman, sans-serif";
 // Create gradient
 var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
 gradient.addColorStop("0", "#006622");
-gradient.addColorStop("0.5", "#000080");
-gradient.addColorStop("1.0", "#006622");
-
+gradient.addColorStop("0.25", "#000080");
+gradient.addColorStop("0.5", "#006622");
+gradient.addColorStop("0.75", "#000080");
 // Fill with gradient
 ctx.fillStyle = gradient;
 ctx.fillText("Viktoriya Bardenova", 10, 90);
