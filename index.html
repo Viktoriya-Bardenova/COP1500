@@ -14,11 +14,7 @@ Your browser does not support the HTML5 canvas tag.</canvas>
 <script>
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
-
-ctx.font = "20px Georgia";
-ctx.strokeText("Hello World!", 10, 50);
-
-ctx.font = "30px Verdana";
+ctx.font = "70px Times New Roman, sans-serif";
 
 // Create gradient
 var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
@@ -28,7 +24,7 @@ gradient.addColorStop("1.0", "red");
 
 // Fill with gradient
 ctx.strokeStyle = gradient;
-ctx.strokeText("Big smile!", 10, 90);
+ctx.strokeText("Viktoriya Bardenova", 10, 90);
 </script>
 
 
