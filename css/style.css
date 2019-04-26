@@ -84,14 +84,14 @@ h1 {
 
 h2 {
   color: #006622;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   font: Times New Roman, serif;
 }
 
 h3 {
   color: #006622;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   font: Times New Roman, serif;
 }
@@ -132,11 +132,11 @@ td {
 /*Social media copied from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp*/
 /* Style all font awesome icons */
 .fa {
-  padding: 30px;
+  padding: 20px;
   font-size: 4px;
   width: 20px;
-  heigth: 30px;
-  text-align: left;
+  /*heigth: 30px;*/
+  text-align: center;
   text-decoration: none;
 }
 
