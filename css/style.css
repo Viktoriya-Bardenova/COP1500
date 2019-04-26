@@ -132,9 +132,8 @@ td {
 /*Social media copied from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp*/
 /* Style all font awesome icons */
 .fa {
-  padding: 20px;
-  font-size: 1px;
-  width: 20px;
+  padding: 30px;
+  width: 30px;
   text-align: center;
   text-decoration: none;
 }
@@ -150,15 +149,21 @@ td {
 .fa-facebook {
   background: #3B5998;
   color: white;
+  font-size: 1px;
+  font-family:Times New Roman, sans-serif;
 }
 
 /* Twitter */
 .fa-twitter {
   background: #55ACEE;
   color: white;
+  font-size: 1px;
+  font-family:Times New Roman, sans-serif;
 }
 /*Instagram*/
 .fa-instagram {
   background: #3B5998;
   color: white;
+  font-size: 1px;
+  font-family:Times New Roman, sans-serif;
 }
