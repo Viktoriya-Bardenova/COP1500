@@ -151,6 +151,7 @@ td {
   color: white;
   font-size: 1px;
   font-family:Times New Roman, sans-serif;
+  position: relative;
 }
 
 /* Twitter */
@@ -159,6 +160,7 @@ td {
   color: white;
   font-size: 1px;
   font-family:Times New Roman, sans-serif;
+  position: relative;
 }
 /*Instagram*/
 .fa-instagram {
@@ -166,4 +168,5 @@ td {
   color: white;
   font-size: 1px;
   font-family:Times New Roman, sans-serif;
+  position: relative;
 }
