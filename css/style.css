@@ -64,6 +64,10 @@ img {
   height: auto;
   width: 99%;
   background-color: #E3EDD8;
+  color: #006622;
+  font-size: 25px;
+  font-weight: bold;
+  font: Times New Roman, serif;
 }
     
 /*footer*/
