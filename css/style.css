@@ -132,10 +132,10 @@ td {
 /*Social media copied from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp*/
 /* Style all font awesome icons */
 .fa {
-  padding: 20px;
+  padding: 30px;
   font-size: 10px;
   width: 40px;
-  text-align: center;
+  text-align: right;
   text-decoration: none;
 }
 
