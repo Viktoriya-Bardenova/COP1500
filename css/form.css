@@ -4,7 +4,7 @@ div#main{
 width:830px;
 height:650px;
 margin:0 auto;
-font-family:'Ubuntu',sans-serif
+font-family:'Ariel',sans-serif
 }
 div#form_sample{
 text-align:center;
@@ -52,7 +52,7 @@ color:#fff;
 font-size:18px;
 font-weight:700;
 cursor:pointer;
-font-family:'Ubuntu',sans-serif
+font-family:'Ariel',sans-serif
 }
 /* -------------------------------------
 CSS for Sidebar (optional)
