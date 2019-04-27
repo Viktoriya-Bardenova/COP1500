@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <html lang="en-US"> <!--as requested in the assignment-->
+  <meta charset="UTF-8"> <!--as requested in the assignment-->
+    
+    <!--Main heading-->
+    <head>
+    <!--Title-->
+    <title>Viktoriya Bardenova</title> 
+    <!--End of title-->
+    </head>
+    <!--End of main heading-->
+    
+    <!--Body-->
+    <body>
+    <!--Canvas element 
+    I used https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_canvas_tut_text
+    and https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_canvas_filltext
+    -->
+    <canvas id="myCanvas" width="600" height="115">Your browser does not support the HTML5 canvas tag.</canvas>
+    <script>
+      var c = document.getElementById("myCanvas");
+      var ctx = c.getContext("2d");
+      ctx.font = "70px Times New Roman, sans-serif";
+      // Create gradient
+      var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
+      gradient.addColorStop("0", "#006622");
+      gradient.addColorStop("0.25", "#000080");
+      gradient.addColorStop("0.5", "#006622");
+      gradient.addColorStop("0.75", "#000080");
+      // Fill with gradient
+      ctx.fillStyle = gradient;
+      ctx.fillText("Viktoriya Bardenova", 10, 90);
+    </script>
+    <!--end of Canvas element-->
+    
+    <!--SVG element 
+    I used https://www.w3schools.com/html/tryit.asp?filename=tryhtml_svg_logo to create my initials as an SVG emelent-->
+    <svg width="200" height="120">
+      <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%"
+          style="stop-color:#006622;stop-opacity:1" />
+          <stop offset="100%"
+          style="stop-color:#000080;stop-opacity:1" />
+        </linearGradient>
+      </defs>
+      <circle cx="60" cy="60" r="50" fill="url(#grad1)" />
+      <text fill="#ffffff" font-size="40" font-family="Times New Roman, serif" x="30" y="79">VB</text>
+      Sorry, your browser does not support inline SVG.
+    </svg>
+    <!--end of SVG element-->
+      
+    
+    <!--Main heading-->
+    <head>
+    <h1><img class="portrait" src="images/IMG_2823 copy.JPG" alt="Viktoriya" title="Profile picture" style="width:120px;height:130px;" align="center"></h1>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <!--End of main heading-->
+    
+    <!--Body-->
+    <body>
+    
+     <!--Header--> 
+     <div id="header">
+     <!--About me section-->
+     <p id="about"></p>
+         <a href="about.html" target="_blank">About me:</a>
+         <a href="mailto:vlbardenova6187@eagle.fgcu.edu" target="_blank"><p id="email">vlbardenova6187@eagle.fgcu.edu</p></a>
+     </div>
+     <!--End of About me section-->
+     
+      <!--Class right/ align to the right-->
+     <div class="right">
+     
+       <!--OBJECTIVE-->
+       <h2><strong>OBJECTIVE</strong></h2>  
+         <h3>To gain more experience in Mathematics while learning new skills and get challenged professionally.</h3>  
+       <!--End of OBJECTIVE-->
+        
+       <!--EDUCATION-->
+         <h2><strong>EDUCATION</strong>
+           <table>
+             <tr id="heading">
+               <td>School</td>
+               <td>Degree</td>
+               <td>Grade</td>
+               <td>Years attended</td>
+             </tr>
+             <tr>
+               <td>Florida Gulf Coast University</td>
+               <td>BACHELOR OF SCIENCE IN MATHEMATICS</td>
+               <td>GPA 3.95/4.00</td>
+               <td>2018-ANTICIPATED GRADUATION 2022</td>
+             </tr>
+             <tr>
+               <td>Mathematics Gymnasium “Baba Tonka”, Ruse, Bulgaria</td>
+               <td>DIPLOMA OF SECONDARY EDUCATION</td>
+               <td>GPA 5.97/6.00</td>
+               <td>1997-2002</td>
+             </tr>
+           </table>   
+         </h2>  
+         <!--End of EDUCATION-->
+        
+         <!--RESEARCH-->
+         <h2>RESEARCH</h2>
+           <h3><p>Solar research</h3>
+             <h4><em>Determining the size of the Solar radius</em>
+               <p>Currently working on research determining the size of the Solar radius in a team with fellow Honors student Corbin Myers led by Dr. Derek Buzasi in Honors: The Earth and the Sun. The results of this research will be presented as a poster at the June 9-13, 2019 meeting of the American Astronomical Society in St. Louis, MO.</p>
+             </h4>
+           <h3><p>Domination Theory Research</h3>
+             <h4><em>Exploring new graph domination problems</em>
+               <p>Research on new graph domination problems that I will be working on with Dr. Erik Insko.</p>
+             </h4>
+         <!--End of RESEARCH-->
+        
+       <!--SKILLS-->  
+       <h2><strong>SKILLS</strong></h2>
+           <h3>
+             <ul>
+               <li><span id="skills-name">Languages:</span> Bulgarian, Russian</li>
+               <li><span id="skills-name">Relevant course work:</span> Statistical Methods, Calculus I and II, Honors: The Earth and the Sun, Introduction to Computer Science</li>
+               <li><span id="skills-name">Programming Skills:</span> Pascal, C++, learning HTML and CSS</li>
+             </ul>
+           </h3>
+       <!--End of SKILLS-->  
+            
+       <!--VOLUNTEER EXPERIENCE OR LEADERSHIP-->
+       <h2>VOLUNTEER EXPERIENCE OR LEADERSHIP</h2>
+         <h3>
+           <ul>
+             <li>Member of FGCU Math Club.</li>
+             <li>Emerging Eagles Spring 2019, a 10-week program that fosters leadership potential and provides tools to become an effective leader in the FGCU campus, community, and beyond.</li>
+             <li>Alternative Spring Break 2019 in NYC, where 24 fellow FGCU students/staff and I served the local community through various nonprofits, serving food, preparing meals, working clothing drives, tutoring local kids, and more</li>  
+             <li>Honors College mentor 2019-2020.</li>
+             <li>Dean's list Fall 2018.</li>
+             <li>Volunteer at St. Matthew's House, Naples, FL.</li>
+           </ul>
+         </h3>
+       <!--End of VOLUNTEER EXPERIENCE OR LEADERSHIP-->
+    
+       <!--AWARDS/SCHOLARSHIPS-->
+       <h2>AWARDS/SCHOLARSHIPS</h2>
+         <h3>
+           <ul>
+             <li>Fall 2018 Dean’s list</li>
+             <li>President’s Gold Scholarship recipient</li>
+             <li>Honors College</li>
+           </ul>
+         </h3>
+         <!--End of AWARDS/SCHOLARSHIP-->
+      
+         <!--Accessibility & Usability
+         I used https://www.biapt.org/accessibility/#images for reference-->
+         <p style="font-size:15px">Accessibility & Usability of my website:
+           <ul style="font-size:15px">
+             <li >images-hovering over images and media buttons will provide information about the subject</li>
+             <li>links-links on this site open in the same window, so your browser’s ‘back’ button will always work. All links on this site were checked at the time of website publication. All links are accurate and in working order.</li>
+             <li>browser compatibility-the website uses cascading style sheets CSS for layout. If audio or video contest is not supported a message will appear on the screen.</li>
+             <li>still improving-everything else. If you find anything that needs improvement do not hesitate to email me (a link to my email is on the top of this page).</li>
+           </ul>
+         <!--End of Accessibility & Usability-->
+                
+         <!--Footer-->   
+         <div id="footer">
+         
+           <!--Social media copied from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
+           <!-- Add icon library -->
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+           <!-- Add font awesome icons -->
+           <a href="https://www.instagram.com/viktoriyabardenova/" title="Follow me on Instagram" class="fa fa-instagram">.</a>
+           <a href="https://twitter.com/vbardenova" title="Follow me on Twitter" class="fa fa-twitter">.</a>
+           <a href="https://www.facebook.com/viktoriya.bardenova" title="Follow me on Facebook" class="fa fa-facebook">.</a>
+         </div>
+         <!--End of Footer-->
+       </div>
+    </body>
+    <!--End of Body--> 
+</html>
