@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="css/contact.css">
+<body>
+	    
+<script scr="https://cdn.jsdelivr.net/gh/jquery/jquery@3.2.1/dist/jquery.min.js"></script>
+<script language="JavaScript">
+function(e) {
+  var name = document.getElementById('inputName');
+	var email = document.getElementById('inputEmail');
+  var message = document.getElementById('inputMessage');
+	  if (!name.value || !email.value ||!message.value) {
+	    alertify.error('Please check your entries')
+	  } else {
+	    $.ajax({
+	      url: "https://forspree.io/vlbardenova6187@eagle.fgcu.edu",
+	      method: "POST",
+	      data: $(this).serialize,
+	      dataType: "json"
+	    });
+	    e.preventDefault()
+	    $(this).get(0).reset()
+	    alertify.success('Message sent')
+	  }
+	})
+</script>
+	  </head>
+	  <body>
+	    <h1>Contact me</h1>
+	    <form>
+	      <label>
+	        E-mail
+	        <input type="email" name="email" class="email"/>
+	      </label>
+	      <label>
+	        Subject
+	        <input type="text" name="subject" class="subject"/>
+	      </label>
+	      <label>
+	        Message
+	        <textarea class="message" name="message"></textarea>
+	      </label>
+	      <div class="status">
+	        
+	      </div>  
+	      <button type="submit" class="submit">Send</button>
+	    </form>
+	  </body>
+	</html>
