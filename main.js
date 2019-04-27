@@ -1,7 +1,7 @@
 console.log('It works')
 
-$(document).ready(function (){
-  $('.submit').click(function (event){
+$(document).ready(function () {
+  $('.submit').click(function (event) {
     console.log('Clicked button')
     
     var email = $('.email').val()
