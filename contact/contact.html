@@ -1,79 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Contact Form using JavaScript</title> <!-- Include CSS file here -->
-<link href="css/contact.css" rel="stylesheet" href="contact.css">
+<title>Popup contact form</title>
+<link href="contact.css" rel="stylesheet">
 </head>
-<body>
-<div id="main">
-<h1>Contact Form using JavaScript</h1>
-<div id="form_sample"></div>
+<!-- Body Starts Here -->
+<body id="body" style="overflow:hidden;">
 <script language="JavaScript">
-var x = document.getElementById("form_sample");
-var createform = document.createElement('form'); // Create New Element Form
-createform.setAttribute("action", ""); // Setting Action Attribute on Form
-createform.setAttribute("method", "post"); // Setting Method Attribute on Form
-x.appendChild(createform);
-
-var heading = document.createElement('h2'); // Heading of Form
-heading.innerHTML = "Contact Form ";
-createform.appendChild(heading);
-
-var line = document.createElement('hr'); // Giving Horizontal Row After Heading
-createform.appendChild(line);
-
-var linebreak = document.createElement('br');
-createform.appendChild(linebreak);
-
-var namelabel = document.createElement('label'); // Create Label for Name Field
-namelabel.innerHTML = "Your Name : "; // Set Field Labels
-createform.appendChild(namelabel);
-
-var inputelement = document.createElement('input'); // Create Input Field for Name
-inputelement.setAttribute("type", "text");
-inputelement.setAttribute("name", "dname");
-createform.appendChild(inputelement);
-
-var linebreak = document.createElement('br');
-createform.appendChild(linebreak);
-
-var emaillabel = document.createElement('label'); // Create Label for E-mail Field
-emaillabel.innerHTML = "Your Email : ";
-createform.appendChild(emaillabel);
-
-var emailelement = document.createElement('input'); // Create Input Field for E-mail
-emailelement.setAttribute("type", "text");
-emailelement.setAttribute("name", "demail");
-createform.appendChild(emailelement);
-
-var emailbreak = document.createElement('br');
-createform.appendChild(emailbreak);
-
-var messagelabel = document.createElement('label'); // Append Textarea
-messagelabel.innerHTML = "Your Message : ";
-createform.appendChild(messagelabel);
-
-var texareaelement = document.createElement('textarea');
-texareaelement.setAttribute("name", "dmessage");
-createform.appendChild(texareaelement);
-
-var messagebreak = document.createElement('br');
-createform.appendChild(messagebreak);
-
-var submitelement = document.createElement('input'); // Append Submit Button
-submitelement.setAttribute("type", "submit");
-submitelement.setAttribute("name", "dsubmit");
-submitelement.setAttribute("value", "Submit");
-createform.appendChild(submitelement);	
+function check_empty() {
+if (document.getElementById('name').value == "" || document.getElementById('email').value == "" || document.getElementById('msg').value == "") {
+alert("Fill All Fields !");
+} else {
+document.getElementById('form').submit();
+alert("Form Submitted Successfully...");
+}
+}
+//Function To Display Popup
+function div_show() {
+document.getElementById('abc').style.display = "block";
+}
+//Function to Hide Popup
+function div_hide(){
+document.getElementById('abc').style.display = "none";
+}
 	</script>
+
+<div id="abc">
+<!-- Popup Div Starts Here -->
+<div id="popupContact">
+<!-- Contact Us Form -->
+<form action="#" id="form" method="post" name="form">
+<img id="close" src="images/3.png" onclick ="div_hide()">
+<h2>Contact Us</h2>
+<hr>
+<input id="name" name="name" placeholder="Name" type="text">
+<input id="email" name="email" placeholder="Email" type="text">
+<textarea id="msg" name="message" placeholder="Message"></textarea>
+<a href="javascript:%20check_empty()" id="submit">Send</a>
+</form>
 </div>
+<!-- Popup Div Ends Here -->
+</div>
+<!-- Display Popup Button -->
+<h1>Click Button To Popup Form Using Javascript</h1>
+<button id="popup" onclick="div_show()">Popup</button>
 </body>
+<!-- Body Ends Here -->
 </html>
-	      </label>
-	      <div class="status">
-	        
-	      </div>  
-	      <button type="submit" class="submit">Send</button>
-	    </form>
-	  </body>
-	</html>
