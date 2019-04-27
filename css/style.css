@@ -122,6 +122,10 @@ td {
   font-weight:bold;
 }
 
+.skill-name{
+  float:right;
+}
+
 /*Social media copied from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp*/
 /* Style all font awesome icons */
 .fa {
