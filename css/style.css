@@ -118,24 +118,6 @@ td {
 }
 
 /*defining ids*/
-#research-type {
-  height:2px;
-  text-decoration:underline;
-}
-
-#research-subject {
-  height: 5px;
-}
-
-#v-experience {
-  height:2px;
-  text-decoration:underline;
-}
-
-.skill-name {
-  float:right;
-}
-
 #heading {
   font-weight:bold;
 }
