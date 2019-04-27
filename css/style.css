@@ -78,7 +78,7 @@ img {
   background-color: #668284;
 }
 
-/*Headers h1, h2, h3, h4, h5*/
+/*Headers h1, h2, h3, h4*/
 h1 { 
   color: #006622;
   font-size: 40px;
@@ -103,13 +103,6 @@ h3 {
 h4 {
   color: #006622;
   font-size: 20px;
-  font-weight: bold;
-  font: Times New Roman, serif;
-}
-
-h5 {
-  color: #006622;
-  font-size: 15px;
   font-weight: bold;
   font: Times New Roman, serif;
 }
