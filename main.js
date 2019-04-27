@@ -12,19 +12,19 @@ $(document).ready(function (){
     statusElm.empty()
     
     if email.lenght > 5 && email.includes('@') && email.includes('.') {
-      statusElm.append(<div>'Email is valid'</div>)  
+      statusElm.append('<div>Email is valid</div>')  
     } else {
-      statusElm.append(<div>'Email is not valid'</div>) 
+      statusElm.append('<div>Email is not valid</div>') 
     }
     if subject.lenght > 2 {
-      statusElm.append(<div>'Subject is valid'</div>)  
+      statusElm.append('<div>Subject is valid</div>')  
     } else {
-      statusElm.append(<div>'Subject is not valid'</div>) 
+      statusElm.append('<div>Subject is not valid</div>') 
     }
     if message.lenght > 20 {
-      statusElm.append(<div>'Message is valid'</div>)  
+      statusElm.append('<div>Message is valid</div>')  
     } else {
-      statusElm.append(<div>'Message is not valid'</div>) 
+      statusElm.append('<div>Message is not valid</div>') 
     }
   })
 })
