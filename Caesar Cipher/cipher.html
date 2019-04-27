@@ -15,7 +15,6 @@ function c_ciph(){
   console.log(key1);
   var result='';
   for (var i = 0, len = x.length; i < len; i++) {
-    if ((a>=65 && a>=90) || (a>=97 && a>=122)) {
       if (x[i] == x[i].toUpperCase()){
         var a = x[i].charCodeAt(0);
         var e = (((a - 65 + key1) % 26) + 97);
@@ -29,9 +28,6 @@ function c_ciph(){
       else {
         result = result + x[i];
       }
-    }
-    else {
-      result = 'Wrong input'
     }
   document.getElementById('result').value = result ;
 }
