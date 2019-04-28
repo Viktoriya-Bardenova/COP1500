@@ -124,16 +124,16 @@ Last name: <input id="last_name">
 <div id="result"></div>
  
 <script language="JavaScript">
-function say_hi() {
+function hi() {
     var firstName = document.getElementById('first_name').value;
     var lastName = document.getElementById('last_name').value;
  
-    var html = 'Hello <b>' + fname + '</b> ' + lname;
+    var answer = 'Hello <b>' + firstName + '</b> ' + lastName;
  
-    document.getElementById('result').innerHTML = html;
+    document.getElementById('result').innerHTML = answer;
 }
  
-document.getElementById('say').addEventListener('click', say_hi);
+document.getElementById('say').addEventListener('click', hi);
 </script>
 </h4>
 
