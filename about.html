@@ -114,6 +114,29 @@
               <a href="Caesar Cipher/cipher.html">Caesar Cipher</a>
               </h4>
   
+            
+           <h3>Let's see who visits my website</h3>
+           <h4>First name: <input id="first_name">
+Last name: <input id="last_name">
+<button id="say">Say hi!</button>
+ 
+<hr>
+<div id="result"></div>
+ 
+<script language="JavaScript">
+function say_hi() {
+    var firstName = document.getElementById('first_name').value;
+    var lastName = document.getElementById('last_name').value;
+ 
+    var html = 'Hello <b>' + fname + '</b> ' + lname;
+ 
+    document.getElementById('result').innerHTML = html;
+}
+ 
+document.getElementById('say').addEventListener('click', say_hi);
+</script>
+</h4>
+
             <!--End of About me-->
       
             <!--Footer-->   
