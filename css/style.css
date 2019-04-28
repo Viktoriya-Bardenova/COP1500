@@ -178,3 +178,8 @@ td {
   font-family:Times New Roman, sans-serif;
   position: center;
 }
+/*LinkedIn*/
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
