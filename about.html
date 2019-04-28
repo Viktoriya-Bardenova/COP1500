@@ -17,6 +17,7 @@
       <link rel="stylesheet" type="text/css" href="css/style.css">
       <a href="index.html">Go home</a>
     <div class="right">
+      
       <!--About me-->
       <h2>
         <img class="portrait" src="images/Viktoriya.JPG" alt="Viktoriya" title="Profile picture" style="width:100px;height:100px;">
@@ -54,27 +55,26 @@
             
         <!--Video element
         I used https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video_js_prop-->
-    <h3><em>Math and computers:</em></h3>
-          <h4>
-            <div style="text-align:center"> 
-              <button onclick="playPause()">Play/Pause</button> 
-              <button onclick="makeBig()">Big</button>
-              <button onclick="makeSmall()">Small</button>
-              <button onclick="makeNormal()">Normal</button>
-              <br><br>
-              <video id="video1" width="400">
-                <source src="media/movie.mp4" type="video/mp4">
-                <source src="media/movie.ogg" type="video/ogg">
-                Your browser does not support HTML5 video.
-              </video>
-            </div> 
-          </h4>
-       
+      <h3><em>Math and computers:</em></h3>
+        <h4>
+          <div style="text-align:center"> 
+            <button onclick="playPause()">Play/Pause</button> 
+            <button onclick="makeBig()">Big</button>
+            <button onclick="makeSmall()">Small</button>
+            <button onclick="makeNormal()">Normal</button>
+            <br></br>
+            <video id="video1" width="400">
+              <source src="media/movie.mp4" type="video/mp4">
+              <source src="media/movie.ogg" type="video/ogg">
+              Your browser does not support HTML5 video.
+            </video>
+          </div> 
+        </h4>       
         <!--End of Video element-->
       
-          <h4>
-            <em>Link to the Youtube video:</em>
-            <a href="https://www.youtube.com/watch?v=ASoz_NuIvP0/">42 is the new 33 - Numberphile</a>
+        <h4>
+         <em>Link to the Youtube video:</em>
+           <a href="https://www.youtube.com/watch?v=ASoz_NuIvP0/">42 is the new 33 - Numberphile</a>
             <script> 
               var myVideo = document.getElementById("video1"); 
               function playPause() { 
@@ -95,52 +95,49 @@
             </script>
           </h4>
             
-            <!--Field report PDF
-                I used https://www.w3docs.com/tools/code-editor/1085-->   
-            <h4>
-              <em>Field report about computer science and how I use computer science:</em>
+          <!--Field report PDF
+          I used https://www.w3docs.com/tools/code-editor/1085-->   
+          <h4>
+            <em>Field report about computer science and how I use computer science:</em>
               <div style="text-align:center">
                 <iframe src="uploads/Field Report.pdf" width="75%" height="1000px" align="center">
                 </iframe>
              </div>
-             </h4>
+         </h4>
+         <!--End of Field report PDF-->
             
-              <!--End of Field report PDF-->
-            
-            <!--Caesar Cipher
-                I used https://code.sololearn.com/W1zeV0M7B2jE/#html-->   
-            <h3><em>Caesar Cipher:</em></h3>
-              <h4>
-              <a href="Caesar Cipher/cipher.html">Caesar Cipher</a>
-              </h4>
+         <!--Caesar Cipher
+         I used https://code.sololearn.com/W1zeV0M7B2jE/#html-->   
+       <h3><em>Caesar Cipher:</em></h3>
+         <h4>
+           <a href="Caesar Cipher/cipher.html">Caesar Cipher</a>
+         </h4>
+         <!--End of Caesar Cipher-->
   
-            
-           <h3>Let's see who visits my website</h3>
-           <h4>First name: <input id="first_name">
-               Last name: <input id="last_name">
-               <button id="say">Say hi!</button>
-               <hr>
-               <div id="result"></div>
+          <!--IPO using Javascript-->
+          <h4>Let's see who visits my website
+            First name: <input id="first_name">
+            Last name: <input id="last_name">
+            <button id="say">Say hi!</button>
+            <hr>
+            <div id="result"></div>
+            <script language="JavaScript">
+              function say_hi() {
+              var first = document.getElementById('first_name').value;
+              var last = document.getElementById('last_name').value;
+              var response = 'Hello <b>' + first + '</b> ' + last;
+              document.getElementById('result').innerHTML = response;
+              }
+              document.getElementById('say').addEventListener('click', say_hi);
+            </script>
+          </h4>
+          <!--IPO using Javascript-->
 
-               <script language="JavaScript">
-               function say_hi() {
-               var fname = document.getElementById('first_name').value;
-               var lname = document.getElementById('last_name').value;
-
-               var html = 'Hello <b>' + fname + '</b> ' + lname;
-
-               document.getElementById('result').innerHTML = html;
-               }
-
-               document.getElementById('say').addEventListener('click', say_hi);
-               </script>
-               </h4>
-
-            <!--End of About me-->
+          <!--End of About me-->
       
-            <!--Footer-->   
-            <div id="footer">
-            <!--Social media copied from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
+          <!--Footer-->   
+          <div id="footer">
+          <!--Social media copied from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
             <!-- Add icon library -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -148,9 +145,8 @@
             <a href="https://www.instagram.com/viktoriyabardenova/" title="Follow me on Instagram" class="fa fa-instagram">.</a>
             <a href="https://twitter.com/vbardenova" title="Follow me on Twitter" class="fa fa-twitter">.</a>
             <a href="https://www.facebook.com/viktoriya.bardenova" title="Follow me on Facebook" class="fa fa-facebook">.</a>
-            </div>
-            <!--End of Footer-->
-    
+          </div>
+          <!--End of Footer-->    
       </div>
     </body>
 </html>         
